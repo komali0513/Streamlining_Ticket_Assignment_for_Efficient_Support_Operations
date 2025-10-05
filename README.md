@@ -113,6 +113,20 @@ Streamlining-Ticket-Assignment/
 
 │       └── Other custom columns
 
+├── Assignments/
+
+│   ├── Certificates Group:
+
+│   │   ├── Member: Katherine Pierce
+
+│   │   └── Role: Certification_Role
+
+│   └── Platform Group:
+
+│       ├── Member: Manne Niranjan
+
+│       └── Role: Platform_Role
+
 ├── ACLs/
 
 │   ├── Read Access (Platform/Certification Roles)
