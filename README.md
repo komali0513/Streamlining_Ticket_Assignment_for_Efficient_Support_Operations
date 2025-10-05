@@ -8,22 +8,22 @@ Optimize use of internal support resources
 
 # Implementation Steps:
 # 1. User Setup:
-Location: ServiceNow → All → Users (under System Security)
+ServiceNow → All → Users (under System Security)
 Click New, input user details, and click Submit
 Repeat for additional users
 
 # 2. Group Setup:
-Location: ServiceNow → All → Groups (under System Security)
+ServiceNow → All → Groups (under System Security)
 Click New, input group details, and click Submit
 Repeat for all necessary support groups
 
 # 3. Role Setup:
-Location: ServiceNow → All → Roles (under System Security)
+ServiceNow → All → Roles (under System Security)
 Click New, define role attributes, and click Submit
 Repeat as needed
 
 # 4. Table Creation:
-Location: ServiceNow → All → Tables (under System Definition)
+ServiceNow → All → Tables (under System Definition)
 Click New, provide the following details:
 Label: Operations Related
 Enable Create Module and Mobile Module
@@ -45,13 +45,13 @@ Add Manne Niranjan as Group Member
 Assign Platform_Role
 
 # 6. Assign Roles to Table:
-Location: ServiceNow → Tables → Operations Related Table
+ServiceNow → Tables → Operations Related Table
 Under Application Access:
 Read Access: Requires Platform_Role or Certification_Role
 Write Access: Requires Platform_Role or Certification_Role
 
 # 7. Create ACLs (Access Control List): 
-Location: ServiceNow → All → ACL (under System Security)
+ServiceNow → All → ACL (under System Security)
 Create 4 ACLs to enforce role-based field access
 Add admin role under Requires Role where necessary
 
@@ -113,7 +113,7 @@ Streamlining-Ticket-Assignment/
 
 │       └── Other custom columns
 
-├── Assignments/
+├── Assign roles and users to groups/
 
 │   ├── Certificates Group:
 
@@ -126,6 +126,12 @@ Streamlining-Ticket-Assignment/
 │       ├── Member: Manne Niranjan
 
 │       └── Role: Platform_Role
+
+├── Assign roles to tables/
+
+│           ├── Read Access → Requires Platform_Role or Certification_Role
+
+│           └── Write Access → Requires Platform_Role or Certification_Role
 
 ├── ACLs/
 
