@@ -66,7 +66,8 @@ Condition: Issue is Regarding Certificates
 Action:
 Field: Assigned to group
 Value: Certificates Group
-Save and Activate       Flow 2: Platform-Related Issues
+Save and Activate       
+Flow 2: Platform-Related Issues
 Flow Name: Regarding Platform
 Application: Global
 Run As: System User
