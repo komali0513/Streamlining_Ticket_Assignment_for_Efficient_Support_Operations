@@ -87,29 +87,38 @@ Streamlining-Ticket-Assignment/
 
 ├── Users/
 │   ├── Katherine Pierce (Certificates Group)
+
 │   └── Manne Niranjan (Platform Group)
 
 ├── Groups/
 │   ├── Certificates Group
+
 │   └── Platform Group
 
 ├── Roles/
 │   ├── Certification_Role
+
 │   └── Platform_Role
 
 ├── Tables/
 │   └── u_operations_related
+
 │       ├── Issue (Choice field)
+
 │       ├── Assigned to Group
+
 │       └── Other custom columns
 
 ├── ACLs/
 │   ├── Read Access (Platform/Certification Roles)
+
 │   ├── Write Access (Platform/Certification Roles)
+
 │   └── Field-Level Restrictions
 
 ├── Flows/
 │   ├── Regarding Certificate → Assigns to Certificates Group
+
 │   └── Regarding Platform → Assigns to Platform Group
 
 # Outcome:
